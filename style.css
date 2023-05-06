@@ -1,0 +1,54 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.calculator
+{
+    width:30vw;
+    height:500px;
+    margin: auto;
+    background-color: grey;
+    
+}
+
+.input
+{
+    background-color: black;
+    height:100px;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+.output
+{
+    height:70px;
+    background-color: aquamarine;
+    color: brown;
+    padding: 10px;
+    font-size: 25px;
+}
+.header
+{
+    text-align: center;
+    color: white;
+    
+}
+h2{
+    text-decoration: line-through;
+}
+.keys
+{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+}
+.btnBox button
+{
+    width: 100%;
+}
+
+button
+{
+    border:1px black solid;
+    padding: 8px;
+}
